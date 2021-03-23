@@ -1,0 +1,18 @@
+@media screen and (max-width:1450px) {
+.bodyContainer , .JunCon1{
+      height: auto;
+  }  
+}
+@media screen and (max-width:1340px) {
+    .JunCon2{
+        width: 20%;
+        height: 400px;
+    }
+    .contactImgContainer{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

@@ -1,0 +1,38 @@
+label {
+ font-size:18px;  
+ font-family: 'Oxygen', sans-serif;
+ color: #676465;
+}
+.inpDiv {
+    margin-bottom:5px;
+    margin-top: 5px;
+}
+hr {
+    margin-bottom: 15px !important;
+}
+.inpt {
+    width:96%;
+    height: 30px; 
+}
+textarea, .inpt {
+    border: 1px solid lightgray;
+}
+::placeholder {
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+}
+.submB {
+    height: 35px;
+    width: 100px;
+    color: white;
+    background-color: #219c97;
+    border: none;
+    font-family:'Oxygen', sans-serif;
+    font-size: 16px;
+}
+.submB:hover{
+font-weight: bold;
+font-size: 18px;
+transition: 2s ease-out;
+background-color: green;
+}

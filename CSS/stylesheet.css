@@ -29,8 +29,8 @@ nav {
     width: 33%;
     height: 90px;
     list-style-type: none;
-    border-left: 1px solid lightgray;
-    border-right: 1px  solid lightgray;
+    /* border-left: 1px solid lightgray;
+    border-right: 1px  solid lightgray; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,6 +49,9 @@ nav {
     font-weight: bold; 
     color:white;  
 }
+.navul>li+li:before {
+    content: "|";
+  }
 
 header {
     width: 253px;
@@ -71,6 +74,7 @@ header:hover {
     font-weight: 400;
     font-family: "DejaVu Sans";
 }
+
 .bodyContainer {
     width: 70%;
     height:520px;
@@ -92,8 +96,8 @@ hr {
     margin-bottom: 25px;
 }
 .prphoto{
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     float: left;
     /* bu kodu yazdım amma niyə text wrap oldu anlamadım */
     margin: 0px 10px 0px 0px;
@@ -113,9 +117,9 @@ p {
     justify-content: space-around;
 }
 .contactImg {
-    width: 80px;
-    height: 70px;
-    border-radius: 3px;
+    width: 65px;
+    height: 65px;
+    /* border-radius: 3px; */
 }
 .contactImg:hover{
     transform: scale(1.05,1);

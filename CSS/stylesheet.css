@@ -16,6 +16,12 @@ html body {
     background-color: white;
     margin-bottom: 35px;
 }
+.topd , .JunCon1 , .JunCon2 {
+    box-shadow:1px 1px 1px 1px rgba(12,31,59,0.21);
+    -webkit-box-shadow:1px 1px 1px 1px rgba(12,31,59,0.21);
+    -moz-box-shadow:1px 1px 1px 1px rgba(12,31,59,0.21);
+   
+}
 nav {
     width: 30%;
 }
@@ -56,12 +62,13 @@ nav {
 header {
     width: 253px;
     height: 90px;
-    background-color:#219c97;
+    background-color:hsl(191, 73%, 34%);
+    
 }
 header:hover {
     transition: width 1s ease 1s;
-    background-color:#188097 ;
     transform: scale(1.05,1);
+    border-radius: 5px;
 }
 .hedh1 {
     font-weight:bold ;
@@ -89,6 +96,7 @@ header:hover {
     height:520px;
     background-color: white;
     padding: 20px;
+    border-radius: 3px;
 }
 
 hr {
@@ -110,6 +118,7 @@ p {
     width: 27%;
     height: 220px;
     background-color: white;
+    border-radius: 3px;
     padding: 20px;
 }
 .contactImgContainer {

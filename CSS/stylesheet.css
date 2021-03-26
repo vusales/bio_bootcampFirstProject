@@ -35,8 +35,6 @@ nav {
     width: 33%;
     height: 90px;
     list-style-type: none;
-    /* border-left: 1px solid lightgray;
-    border-right: 1px  solid lightgray; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +47,7 @@ nav {
 }
 
 .navul li>a:hover {
-    background-color: #188097;
+    background-color: #219c97;
     transition: width 1s ease-out 1s ;  
     transform: scale(1.05,1); 
     font-weight: bold; 
@@ -62,7 +60,7 @@ nav {
 header {
     width: 253px;
     height: 90px;
-    background-color:hsl(191, 73%, 34%);
+    background-color:#219c97;
     
 }
 header:hover {
